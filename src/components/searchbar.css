@@ -1,0 +1,32 @@
+.searchbar{
+	max-width: 400px;
+	margin: auto;
+	display: flex;
+	height: 50px;
+	border: 0px;
+}
+.searchbar input[type="search"]{
+width:80%;
+height: 100%;
+outline: none;
+margin: 0px;
+padding: 10px;
+border: 0px;
+}
+.searchbar input[type="submit"]{
+	width: 90px;
+	height: 100%;
+	outline: none;
+	border: 0px;
+	background-color: #633535;
+}
+
+.searchbar input[type="submit"]:hover {
+    background-color: #88005F;
+    outline: none;
+}
+
+.searchbar input[type="submit"]:active {
+    background-color: #933500;
+    outline: none;
+}

@@ -1,0 +1,18 @@
+h1.title{
+	font-family: 'Old Standard Bold';
+    color: #633535;
+    font-style: bold;
+    margin-bottom: 20px;
+    font-size: 4rem;
+}
+@font-face {
+    font-family: 'Old Standard Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('OldStandard-Bold'), url('OldStandard-Bold.ttf') format('woff');
+}
+
+.container{
+	border: 2pxc solid;
+	border-color: 
+}
