@@ -5,7 +5,7 @@ import React from 'react';
 import './cards.css';
 
 
-const Card = ({ title, author, description, number_of_pages, thumbnail }) => {
+const Cards = ({ title, author, description, number_of_pages, thumbnail, language }) => {
         return (
 <div className="card mb-3">
   <div className="row no-gutters">
@@ -19,12 +19,12 @@ const Card = ({ title, author, description, number_of_pages, thumbnail }) => {
       					<h5>{title}The Fault in our Stars</h5>
     				</div>
     				<div className="col-sm card-text">
-      					<h7>{author}One of three columns</h7>
+      					<h6>{author}One of three columns</h6>
     				</div>
   				</div>
         		<div>
         			<p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        			<p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        			<p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
       			</div>
       	</div>
     </div>
@@ -33,4 +33,4 @@ const Card = ({ title, author, description, number_of_pages, thumbnail }) => {
     );
 }
 
-export default Card;
+export default Cards;
