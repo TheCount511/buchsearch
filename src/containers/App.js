@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import SearchBar from '../components/SearchBar';
-import CardsList from '../components/CardsList'
+import CardList from '../components/CardList'
 
 
 
@@ -38,7 +38,7 @@ componentDidMount(){
 	    		<SearchBar/>
 	    	</header>
 	   </div>
-    	<CardsList books={this.state.books}/>
+    	<CardList books={this.state.books}/>
     </div>
     )
 }

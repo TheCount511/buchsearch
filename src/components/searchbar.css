@@ -13,7 +13,7 @@ margin: 0px;
 padding: 10px;
 border: 0px;
 }
-.searchbar input[type="submit"]{
+.searchbar button[type="button"]{
 	width: 90px;
 	height: 100%;
 	outline: none;
@@ -21,12 +21,12 @@ border: 0px;
 	background-color: #633535;
 }
 
-.searchbar input[type="submit"]:hover {
+.searchbar button[type="button"]:hover {
     background-color: #88005F;
     outline: none;
 }
 
-.searchbar input[type="submit"]:active {
+.searchbar button[type="button"]:active {
     background-color: #933500;
     outline: none;
 }

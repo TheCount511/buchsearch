@@ -1,11 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import React from 'react';
-import './cards.css';
+import './card.css';
 
 
-const Cards = ({ title, author, description, number_of_pages, thumbnail, language }) => {
+const Card = ({ title, author, description, number_of_pages, thumbnail, language }) => {
         return (
 <div className="card mb-3">
   <div className="row no-gutters">
@@ -33,4 +32,4 @@ const Cards = ({ title, author, description, number_of_pages, thumbnail, languag
     );
 }
 
-export default Cards;
+export default Card;
